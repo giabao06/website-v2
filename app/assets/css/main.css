@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+:root {
+    --nav-blue: #a4c6eb;
+    --2k-blue: rgba(59, 110, 165, 0.65);
+    --about-btn: #647dbd;
+    --contact-btn: #97db89;
+    --stuff-btn: #b9a076;
+
+    --kura-blue: rgba(100, 125, 189, 0.8);
+    --sat-green: rgba(151, 219, 137, 0.8);
+    --cafe-brown: rgba(185, 160, 118, 0.8);
+}
+
+@theme inline {
+    --color-navblue: var(--nav-blue);
+    --color-twokblue: var(--2k-blue);
+    --color-about: var(--about-btn);
+    --color-contact: var(--contact-btn);
+    --color-stuff: var(--stuff-btn);
+
+    --color-kurablue: var(--kura-blue);
+    --color-satgreen: var(--sat-green);
+    --color-cafebrown: var(--cafe-brown);
+}

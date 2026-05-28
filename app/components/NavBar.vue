@@ -1,6 +1,6 @@
 <template>
     <div
-        class="min-w-full min-h-1/4 flex flex-row gap-3.5 p-4 pl-8 pr-8 bg-blue-100"
+        class="min-w-full min-h-1/4 flex flex-row gap-3.5 p-4 pl-8 pr-8 bg-navblue"
     >
         <div class="justify-start">
             <NuxtImg
@@ -12,7 +12,7 @@
         </div>
         <div class="justify-end flex flex-row gap-4 flex-1 items-center">
             <ul
-                class="min-h-full flex flex-row list-image-none gap-6 items-center"
+                class="min-h-full flex flex-row list-image-none gap-6 items-center select-none"
             >
                 <li>About Me</li>
                 <li>Contact</li>
