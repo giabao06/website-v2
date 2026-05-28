@@ -1,8 +1,6 @@
 <template>
-    <div
-        class="min-w-full min-h-1/4 flex flex-row gap-3.5 p-4 pl-8 pr-8 bg-navblue"
-    >
-        <div class="justify-start">
+    <div class="w-full min-h-1/4 flex flex-row gap-3.5 pl-8 pr-8 bg-navblue">
+        <div class="justify-start pt-4 pb-4">
             <NuxtImg
                 src="https://github.com/giabao06.png"
                 alt="giabao06 github profile picture"
@@ -10,13 +8,13 @@
                 height="48"
             />
         </div>
-        <div class="justify-end flex flex-row gap-4 flex-1 items-center">
+        <div class="justify-end inline-flex flex-row gap-4 flex-1 items-center">
             <ul
-                class="min-h-full flex flex-row list-image-none gap-6 items-center select-none"
+                class="h-full inline-flex flex-row list-image-none items-center select-none"
             >
-                <li>About Me</li>
-                <li>Contact</li>
-                <li>Stuff I write</li>
+                <li class="w-full h-full bg-about">About Me</li>
+                <li class="w-full h-full bg-contact">Contact</li>
+                <li class="w-full h-full bg-stuff">Stuff I write</li>
             </ul>
             <select id="lang-select" class="border-solid border-stone-800">
                 <option value="en-AU">English (Australia)</option>
