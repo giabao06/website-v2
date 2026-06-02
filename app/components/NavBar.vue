@@ -12,9 +12,9 @@
             <ul
                 class="h-full inline-flex flex-row list-image-none items-center select-none"
             >
-                <li class="w-full h-full bg-about">About Me</li>
-                <li class="w-full h-full bg-contact">Contact</li>
-                <li class="w-full h-full bg-stuff">Stuff I write</li>
+                <li class="px-3 flex items-center justify-center my-auto w-full h-full bg-about">About Me</li>
+                <li class="px-3 flex items-center justify-center my-auto w-full h-full bg-contact">Contact</li>
+                <li class="px-3 flex items-center justify-center my-auto w-full h-full bg-stuff">Stuff I write</li>
             </ul>
             <select id="lang-select" class="border-solid border-stone-800">
                 <option value="en-AU">English (Australia)</option>
