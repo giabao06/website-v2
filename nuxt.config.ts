@@ -16,8 +16,9 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       { name: "Quicksand", provider: "google" },
-      { name: "Playwright USA Traditional", provider: "google" },
+      { name: "Playwrite US Trad", provider: "bunny" },
       { name: "Noto Sans", provider: "google" },
+      { name: "Intel One Mono", provider: "google" },
     ],
   },
   vite: {
