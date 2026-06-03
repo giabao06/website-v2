@@ -16,24 +16,27 @@
             <ul
                 class="h-full inline-flex flex-row list-image-none items-center w-sm"
             >
-                <NuxtLink
-                    to="/about"
-                    class="px-3 flex items-center justify-center my-auto w-full h-full bg-about"
-                >
-                    <li>About Me</li>
-                </NuxtLink>
-                <NuxtLink
-                    to="/contact"
-                    class="px-3 flex items-center justify-center my-auto w-full h-full bg-contact"
-                >
-                    <li>Contact</li>
-                </NuxtLink>
-                <NuxtLink
-                    to="/stuff"
-                    class="px-3 flex items-center justify-center my-auto w-full h-full bg-stuff"
-                >
-                    <li>Stuff I write</li>
-                </NuxtLink>
+                <li class="px-3 my-auto w-full h-full bg-about">
+                    <NuxtLink
+                        to="/about"
+                        class="select-none w-full h-full flex items-center justify-center"
+                        >About Me</NuxtLink
+                    >
+                </li>
+                <li class="px-3 my-auto w-full h-full bg-contact">
+                    <NuxtLink
+                        to="/contact"
+                        class="select-none w-full h-full flex items-center justify-center"
+                        >Contact</NuxtLink
+                    >
+                </li>
+                <li class="px-3 my-auto w-full h-full bg-stuff">
+                    <NuxtLink
+                        to="/stuff"
+                        class="select-none w-full h-full flex items-center justify-center"
+                        >Stuff I wrote</NuxtLink
+                    >
+                </li>
             </ul>
             <select id="lang-select" class="border-solid border-stone-800">
                 <option value="en-AU">English (Australia)</option>
