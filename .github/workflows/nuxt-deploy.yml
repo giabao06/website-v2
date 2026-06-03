@@ -41,7 +41,9 @@ jobs:
         with:
           version: latest
           cache: true
-          run_install: true
+
+      - name: Clean-Install dependencies
+        run: pnpm clean && pnpm i
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
