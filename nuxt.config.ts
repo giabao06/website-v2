@@ -1,15 +1,30 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// even there is an official TailwindCSS for Nuxt, do not use it -swyrin
+
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  app: {
-    baseURL: '/website-v2/',
+  css: ["./app/assets/css/main.css"],
+  modules: ["@nuxt/content", "@nuxt/fonts", "@nuxtjs/i18n", "@nuxt/image"],
+
+  i18n: {
+    defaultLocale: "en-AU",
   },
-  modules: [
-    '@nuxt/content',
-    '@nuxt/fonts',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/i18n',
-    '@nuxtjs/tailwindcss'
-  ]
-})
+
+  fonts: {
+    families: [
+      { name: "Quicksand", provider: "google" },
+      { name: "Playwrite US Trad", provider: "bunny" },
+      { name: "Noto Sans", provider: "google" },
+      { name: "Intel One Mono", provider: "google" },
+    ],
+  },
+  vite: {
+    plugins: [tailwindcss()],
+    optimizeDeps: {
+      include: [],
+    },
+  },
+});
