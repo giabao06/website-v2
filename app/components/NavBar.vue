@@ -28,7 +28,7 @@
                 </li>
                 <li class="px-3 my-auto w-full h-full bg-contact">
                     <NuxtLink
-                        to="/contact"
+                        to="/"
                         class="select-none w-full h-full flex items-center justify-center"
                         >Contact</NuxtLink
                     >
