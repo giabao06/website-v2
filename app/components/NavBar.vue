@@ -5,14 +5,17 @@
         <div class="justify-start pt-4 pb-4">
             <NuxtLink to="/">
                 <NuxtImg
-                    src="https://github.com/giabao06.png"
+                    src="profile.jpg"
                     alt="giabao06 github profile picture"
                     width="48"
                     height="48"
+                    class="rounded-3xl"
                 />
             </NuxtLink>
         </div>
-        <div class="justify-end inline-flex flex-row gap-4 flex-1 items-center">
+        <div
+            class="justify-end inline-flex flex-row gap-4 flex-1 items-center font-quicksand"
+        >
             <ul
                 class="h-full inline-flex flex-row list-image-none items-center w-sm"
             >
@@ -40,8 +43,8 @@
             </ul>
             <select id="lang-select" class="border-solid border-stone-800">
                 <option value="en-AU">English (Australia)</option>
-                <option value="vi-VN">Tiếng Việt</option>
-                <option value="fr-FR">Français (France)</option>
+                <option value="vi-VN">:O</option>
+                <option value="fr-FR">C'est i18n?</option>
             </select>
         </div>
     </div>
