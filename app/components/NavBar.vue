@@ -10,11 +10,26 @@
         </div>
         <div class="justify-end inline-flex flex-row gap-4 flex-1 items-center">
             <ul
-                class="h-full inline-flex flex-row list-image-none items-center select-none"
+                class="h-full inline-flex flex-row list-image-none items-center select-none w-sm"
             >
-                <li class="px-3 flex items-center justify-center my-auto w-full h-full bg-about">About Me</li>
-                <li class="px-3 flex items-center justify-center my-auto w-full h-full bg-contact">Contact</li>
-                <li class="px-3 flex items-center justify-center my-auto w-full h-full bg-stuff">Stuff I write</li>
+                <a
+                    href="/about"
+                    class="px-3 flex items-center justify-center my-auto w-full h-full bg-about"
+                >
+                    <li>About Me</li>
+                </a>
+                <a
+                    href="/contact"
+                    class="px-3 flex items-center justify-center my-auto w-full h-full bg-contact"
+                >
+                    <li>Contact</li>
+                </a>
+                <a
+                    href="/stuff"
+                    class="px-3 flex items-center justify-center my-auto w-full h-full bg-stuff"
+                >
+                    <li>Stuff I write</li>
+                </a>
             </ul>
             <select id="lang-select" class="border-solid border-stone-800">
                 <option value="en-AU">English (Australia)</option>
