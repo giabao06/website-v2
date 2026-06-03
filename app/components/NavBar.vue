@@ -21,7 +21,7 @@
             >
                 <li class="px-3 my-auto w-full h-full bg-about">
                     <NuxtLink
-                        to="/about"
+                        to="/"
                         class="select-none w-full h-full flex items-center justify-center"
                         >About Me</NuxtLink
                     >
@@ -35,7 +35,7 @@
                 </li>
                 <li class="px-3 my-auto w-full h-full bg-stuff">
                     <NuxtLink
-                        to="/stuff"
+                        to="/"
                         class="select-none w-full h-full flex items-center justify-center"
                         >Stuff I wrote</NuxtLink
                     >
