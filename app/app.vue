@@ -5,7 +5,7 @@
         <NavBar />
     </header>
     <main>
-        <div class="w-screen h-screen">
+        <div class="w-full">
             <NuxtPage />
         </div>
     </main>

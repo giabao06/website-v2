@@ -12,7 +12,7 @@
     --cafe-brown: rgba(185, 160, 118, 0.8);
 }
 
-@theme inline {
+@theme {
     --color-navblue: var(--nav-blue);
     --color-twokblue: var(--2k-blue);
     --color-about: var(--about-btn);
@@ -22,4 +22,9 @@
     --color-kurablue: var(--kura-blue);
     --color-satgreen: var(--sat-green);
     --color-cafebrown: var(--cafe-brown);
+    --font-sans: "Noto Sans", sans-serif;
+    --font-display: "Noto Sans", sans-serif;
+    --font-quicksand: "Quicksand", sans-serif;
+    --font-title: "Playwrite US Trad", sans-serif;
+    --font-mono: "Intel One Mono", monospace;
 }
