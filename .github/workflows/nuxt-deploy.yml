@@ -41,6 +41,7 @@ jobs:
         with:
           version: latest
           cache: true
+          run_install: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -50,8 +51,6 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: nuxt
-      - name: Install dependencies
-        run: pnpm i -frozen-lockfile
       - name: Static HTML export with Nuxt
         run: pnpm run generate
       - name: Upload artifact
