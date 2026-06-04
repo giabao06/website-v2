@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     defaultLocale: "en-AU",
   },
   app: {
-    baseURL: "/website-v2/",
+    baseURL: "/",
   },
   fonts: {
     families: [
