@@ -11,6 +11,7 @@ export default defineNuxtConfig({
 
   i18n: {
     defaultLocale: "en-AU",
+    strategy: "no_prefix",
   },
   app: {
     baseURL: "/website-v2/",
