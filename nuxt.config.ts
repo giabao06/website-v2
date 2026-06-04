@@ -14,6 +14,10 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: "/",
+    head: {
+      title: "Coming soon...?",
+      link: [{ rel: "icon", href: "/profile.jpg" }],
+    },
   },
   fonts: {
     families: [
