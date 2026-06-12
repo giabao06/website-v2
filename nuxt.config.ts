@@ -13,9 +13,6 @@ export default defineNuxtConfig({
     defaultLocale: "en-AU",
     strategy: "no_prefix",
   },
-  app: {
-    baseURL: "/website-v2/",
-  },
   fonts: {
     families: [
       { name: "Quicksand", provider: "google" },
