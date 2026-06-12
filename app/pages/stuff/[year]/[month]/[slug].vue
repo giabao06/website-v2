@@ -9,6 +9,9 @@ const path = `/stuff/${year}/${month}/${slug}`;
 const { data: post } = await useAsyncData(`stuff-${path}`, () =>
     queryCollection("stuff").path(path).first(),
 );
+definePageMeta({
+    bgColor: "bg-cafebrown",
+});
 </script>
 
 <template>

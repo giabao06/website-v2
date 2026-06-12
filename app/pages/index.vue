@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+    bgColor: "bg-twokblue",
+});
+</script>
 
 <template>
     <div>
@@ -10,9 +14,3 @@
         </div>
     </div>
 </template>
-
-<style>
-body {
-    background-color: var(--color-twokblue);
-}
-</style>

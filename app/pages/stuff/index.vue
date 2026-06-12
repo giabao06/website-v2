@@ -2,10 +2,13 @@
 const { data: posts } = await useAsyncData("stuff", () =>
     queryCollection("stuff").all(),
 );
+definePageMeta({
+    bgColor: "bg-cafebrown",
+});
 </script>
 
 <template>
-    <div class="flex flex-col justify-center p-7 text-center bg-cafebrown">
+    <div class="flex flex-col justify-center p-7 text-center">
         <div id="header" class="flex flex-col gap-1.5">
             <h1 class="font-quicksand font-extrabold text-5xl">
                 Stuff I wrote
