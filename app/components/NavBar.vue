@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full min-h-1/4 flex flex-row gap-3.5 pl-8 pr-8 bg-navblue shadow-lg"
+        class="relative z-10 w-full min-h-1/4 flex flex-row gap-3.5 pl-8 pr-8 bg-navblue shadow-lg"
     >
         <div class="justify-start pt-4 pb-4">
             <NuxtLink to="/">
