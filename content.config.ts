@@ -6,6 +6,11 @@ export default defineContentConfig({
     stuff: defineCollection({
       type: "page",
       source: "stuff/**/*.md",
+      schema: z.object({
+        title: z.string(),
+        date: z.string(),
+        description: z.string(),
+      }),
     }),
   },
 });
